@@ -220,6 +220,11 @@ footer {
     color: ##22a030;
 }
 
+.features {
+    padding: 115px 60px;
+    background: #fff
+}
+
 .features__border {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -249,15 +254,16 @@ footer {
     align-items: center;
 }
 
+.features__feedback-right h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
 .features__box {
     padding: 30px 40px 25px 40px;
     color: #fff;
     border-radius: 25px;
-}
-.features__box h3 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 48px;
 }
 
 .features__savings-box {
@@ -383,7 +389,7 @@ footer {
     grid-template-columns: auto;
     }
     .features {
-    padding: 50px 10px 50px 10px;
+    padding: 50px 10px;
     }
     .features__feedback {
         flex-direction: column;
@@ -398,9 +404,10 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .features__box h3 {
+    .features__feedback-right h3 {
         font-size: 36px;
     }
+    
     .features__savings-box {
         margin-bottom: 30px;
     }
